@@ -1,21 +1,8 @@
-/*
- * Homework 5 CIE
- * Name: Joseph Krueger
- * Date: 10/23/22
- * Description: Make additions to Bejeweled game including sounds, fonts,
- * timer, score tracking, and my own personal feature.
- * Personal Feature: Welcome screen with instructions that prompts
- * the user to make a choice of how many unique gems will be used. The game
- * then runs using this value to determine how many gems are used. Also includes
- * end screen which displays the final score when the game ends.
- */
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <time.h>
-#include <iostream>
 #include <string>
-#include <chrono>
 
 using namespace sf;
 
